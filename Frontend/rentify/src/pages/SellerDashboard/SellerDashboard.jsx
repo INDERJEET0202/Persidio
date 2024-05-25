@@ -229,6 +229,14 @@ const SellerDashboard = () => {
                                         <option value="apartment">Apartment</option>
                                         <option value="house">House</option>
                                         <option value="condo">Condo</option>
+                                        <option value="townhouse">Townhouse</option>
+                                        <option value="villa">Villa</option>
+                                        <option value="farmhouse">Farmhouse</option>
+                                        <option value="penthouse">Penthouse</option>
+                                        <option value="duplex">Duplex</option>
+                                        <option value="studio">Studio</option>
+                                        <option value="other">Bungalow</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </div>
                             </div>
