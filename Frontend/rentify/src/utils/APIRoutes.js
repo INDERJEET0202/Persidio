@@ -1,4 +1,4 @@
-const host = 'http://localhost:3005';
+const host = 'https://persidio.onrender.com';
 
 export const UserRegisterRoute = `${host}/api/user/register`;
 export const UserLoginRoute = `${host}/api/user/login`;

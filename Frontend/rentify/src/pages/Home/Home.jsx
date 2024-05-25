@@ -109,6 +109,16 @@ const Home = () => {
         <div className="container">
             <h1 className="text-center">All Properties</h1>
             <div className="row">
+                {/* loading spinner */}
+                {
+                    allProperties.length === 0 && (
+                        <div className="d-flex justify-content-center">
+                            <div className="spinner-border" role="status">
+                                <span className="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    )
+                }
                 {allProperties.map(property => (
                     <div className="col-md-4" key={property.id}>
                         <div className="card">
