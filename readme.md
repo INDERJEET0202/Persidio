@@ -34,3 +34,8 @@
 
 - Go to the Frontend directory > rentify and run `npm install`
 - Then run `npm run dev` to start
+
+# Hosted Link
+
+Frontend: `https://rentlify-zeta.vercel.app/`
+Backend: `https://persidio.onrender.com/`
