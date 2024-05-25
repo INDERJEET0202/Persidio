@@ -1,5 +1,7 @@
 ### Rentify
 
+A web application where users can list their properties for rent and other users can view the properties and contact the owner if they are interested.
+
 # Tech Stack
 
 - React
@@ -39,3 +41,5 @@
 
 Frontend: `https://rentlify-zeta.vercel.app/`
 Backend: `https://persidio.onrender.com/`
+
+# BUILT IN 6 HOURS
