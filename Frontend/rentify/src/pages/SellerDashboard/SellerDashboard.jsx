@@ -148,7 +148,7 @@ const SellerDashboard = () => {
                             <img src={property.image_url} className="card-img-top property-card-img" alt="Property" />
                             <div className="card-body property-card-details">
                                 <h5 className="card-title property-card-title">{property.address}, {property.city}, {property.state}</h5>
-                                <p className="card-text property-card-text"><strong>Price: Rs </strong> {property.price}</p>
+                                <p className="card-text property-card-text"><strong>Price: ₹ </strong> {property.price}</p>
                                 <p className="card-text property-card-text"><strong> Area:</strong>  {property.area} sq feet</p>
                                 <p className="card-text property-card-text"><strong> Type:</strong>  {property.property_type.toLowerCase().replace(/\b\w/g, c => c.toUpperCase())}</p>
                                 <p className="card-text property-card-text"><strong> Rooms:</strong>  {property.num_rooms}</p>

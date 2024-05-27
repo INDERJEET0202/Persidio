@@ -120,19 +120,19 @@ const Home = () => {
                     )
                 }
                 {allProperties.map(property => (
-                    <div className="col-md-4" key={property.id}>
+                    <div className="col-md-4 mt-2" key={property.id}>
                         <div className="card">
                             <img src={property.image_url} className="card-img-top" alt="Property Image" />
                             <div className="card-body">
-                                <h5 className="card-title">{property.title}</h5>
-                                <p className="card-text">{property.description}</p>
-                                <p className="card-text">Price: {property.price}</p>
-                                <p className="card-text">Rooms: {property.num_rooms}</p>
-                                <p className="card-text">Bathrooms: {property.num_bathrooms}</p>
-                                <p className="card-text">Address: {property.address}</p>
-                                <p className="card-text">City: {property.city}</p>
-                                <p className="card-text">State: {property.state}</p>
-                                <p className="card-text">Zipcode: {property.zipcode}</p>
+                                <h5 className="card-title"> <strong>{property.description}</strong> </h5>
+
+                                <p className="card-text"> <strong> Price: </strong>  ₹{property.price}</p>
+                                <p className="card-text"> <strong> Rooms: </strong> {property.num_rooms}</p>
+                                <p className="card-text"> <strong> Bathrooms: </strong> {property.num_bathrooms}</p>
+                                <p className="card-text"> <strong> Address: </strong> {property.address}</p>
+                                <p className="card-text"> <strong> City: </strong> {property.city}</p>
+                                <p className="card-text"> <strong> State: </strong> {property.state}</p>
+                                <p className="card-text"> <strong> Zipcode: </strong> {property.zipcode}</p>
                                 {isLoggedIn ? (
                                     <div className='flex justify-between items-center gap-3'>
                                         <button className="btn btn-primary" onClick={() => handleViewProperty(property)}>View Property</button>
