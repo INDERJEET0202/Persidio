@@ -42,6 +42,9 @@ const Register = () => {
             console.log(response.data);
             setResponseTypeText({ message: response.data.message, type: 'success' });
             setLoading(false);
+            setTimeout(() => {
+                navigate('/login');
+            }, 2000);
 
         } catch (error) {
             console.error('Error registering user:', error);
